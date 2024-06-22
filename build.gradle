@@ -7,6 +7,10 @@ plugins {
 group = 'com.demo.cicd'
 version = '0.0.1-SNAPSHOT'
 
+ext {
+    appName = 'githubactionsdemo1.0'
+}
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
