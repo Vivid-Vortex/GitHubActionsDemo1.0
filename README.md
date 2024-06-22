@@ -1,5 +1,7 @@
 # GitHubActionsDemo1.0
-This project will demonstrate a simple github actions worflow
+This project will demonstrate a simple github actions worflow.
+1. Simple Get Rest Api
+2. Docker build and push to docker hub github actions
 
 # Steps to build and run docker image
 Creating a Docker image for a Spring Boot application that uses Gradle involves writing a `Dockerfile` that defines the necessary steps to build and run the application inside a Docker container. Here's a step-by-step guide to creating a Dockerfile for your Spring Boot Gradle-based application:
