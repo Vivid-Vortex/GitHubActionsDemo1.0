@@ -124,13 +124,13 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 
 1. **Build the Docker Image:**
    ```sh
-   docker build -t my-springboot-app .
+   docker build -t githubactionsdemo1.0 .
    ```
-    - This command builds the Docker image and tags it as `my-springboot-app`.
+    - This command builds the Docker image and tags it as `githubactionsdemo1.0`.
 
 2. **Run the Docker Container:**
    ```sh
-   docker run -p 8080:8080 my-springboot-app
+   docker run -p 8080:8080 githubactionsdemo1.0
    ```
     - This command runs the Docker container, mapping port 8080 on the host to port 8080 in the container.
 
